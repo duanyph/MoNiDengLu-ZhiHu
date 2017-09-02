@@ -23,7 +23,7 @@ def yzm():
     with open('yzm.gif', 'wb') as yzmtp:
         yzmtp.write(hqyzm.content)
         yzmtp.close()
-    sryzm = input(">")
+    sryzm = input("请输入验证码值>")
     return sryzm
 html1=None
 #构建头，会话，cookie等
